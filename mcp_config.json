@@ -1,0 +1,258 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@1.10.1"
+      ],
+      "disabled": false
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "disabled": false
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "disabled": false
+    },
+    "token-optimizer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "token-optimizer-mcp"
+      ],
+      "disabled": false
+    },
+    "magic": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@magicuidesign/mcp@latest"
+      ],
+      "disabled": false
+    },
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp",
+        "--browser",
+        "chrome"
+      ],
+      "disabled": false
+    },
+    "cloudflare-docs": {
+      "url": "https://docs.mcp.cloudflare.com/mcp",
+      "disabled": false
+    },
+    "laraplugins": {
+      "url": "https://laraplugins.io/mcp/plugins",
+      "disabled": false
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "disabled": true
+    },
+    "jira": {
+      "command": "uvx",
+      "args": [
+        "mcp-atlassian==0.21.0"
+      ],
+      "disabled": true
+    },
+    "confluence": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "confluence-mcp-server"
+      ],
+      "disabled": true
+    },
+    "firecrawl": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "firecrawl-mcp"
+      ],
+      "disabled": true
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest"
+      ],
+      "disabled": true
+    },
+    "exa-web-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "exa-mcp-server"
+      ],
+      "disabled": true
+    },
+    "codescene": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@codescene/codehealth-mcp"
+      ],
+      "disabled": true
+    },
+    "fal-ai": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "fal-ai-mcp-server"
+      ],
+      "disabled": true
+    },
+    "browserbase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@browserbasehq/mcp-server-browserbase"
+      ],
+      "disabled": true
+    },
+    "browser-use": {
+      "url": "https://api.browser-use.com/mcp",
+      "disabled": true
+    },
+    "memxus": {
+      "url": "https://mcp.memxus.com/mcp",
+      "disabled": true
+    },
+    "evalview": {
+      "command": "python",
+      "args": [
+        "-m",
+        "evalview",
+        "mcp",
+        "serve"
+      ],
+      "disabled": true
+    },
+    "mnemosyne-os": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "-p",
+        "@mnemosyne_os/mcp@2.4.0",
+        "mnemosyne-mcp"
+      ],
+      "env": {
+        "MNEMO_DEFAULT_VAULT": ""
+      },
+      "disabled": true
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem"
+      ],
+      "disabled": true
+    },
+    "deja-vu": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@vshulcz/deja-vu@0.24.0",
+        "mcp"
+      ],
+      "env": {
+        "DEJA_OFFLINE": "1"
+      },
+      "disabled": true
+    },
+    "omega-memory": {
+      "command": "uvx",
+      "args": [
+        "omega-memory",
+        "serve"
+      ],
+      "disabled": true
+    },
+    "longhand": {
+      "command": "longhand",
+      "args": [
+        "mcp-server"
+      ],
+      "disabled": true
+    },
+    "nexus": {
+      "command": "nexus",
+      "args": [
+        "mcp"
+      ],
+      "disabled": true
+    },
+    "ito-compute": {
+      "command": "node",
+      "args": [],
+      "disabled": true
+    },
+    "railway": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@railway/mcp-server"
+      ],
+      "disabled": true
+    },
+    "vercel": {
+      "url": "https://mcp.vercel.com",
+      "disabled": true
+    },
+    "cloudflare-workers-builds": {
+      "url": "https://builds.mcp.cloudflare.com/mcp",
+      "disabled": true
+    },
+    "cloudflare-workers-bindings": {
+      "url": "https://bindings.mcp.cloudflare.com/mcp",
+      "disabled": true
+    },
+    "cloudflare-observability": {
+      "url": "https://observability.mcp.cloudflare.com/mcp",
+      "disabled": true
+    },
+    "clickhouse": {
+      "url": "https://mcp.clickhouse.cloud/mcp",
+      "disabled": true
+    },
+    "parallel-search": {
+      "url": "https://search.parallel.ai/mcp",
+      "disabled": true
+    },
+    "arcmira": {
+      "url": "https://mcp.arcmira.com/mcp",
+      "disabled": true
+    },
+    "devfleet": {
+      "url": "http://localhost:18801/mcp",
+      "disabled": true
+    },
+    "ega-memory-vault": {
+      "command": "ecc-memory-mcp",
+      "env": {
+        "EGA_MEMORY_HARNESS": "antigravity"
+      },
+      "disabled": true
+    }
+  }
+}

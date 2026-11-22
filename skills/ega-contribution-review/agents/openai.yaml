@@ -1,0 +1,7 @@
+interface:
+  display_name: "EGA Skill Contribution Review"
+  short_description: "Prepare evidence-aware EGA skill review packets"
+  brand_color: "#0EA5E9"
+  default_prompt: "Use $ega-contribution-review to prepare an EGA skill contribution review packet from current observations and evidence."
+policy:
+  allow_implicit_invocation: true

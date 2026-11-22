@@ -1,0 +1,30 @@
+{
+  "name": "ega",
+  "displayName": "Everything Gemini and Antigravity",
+  "version": "2.3.0",
+  "description": "Harness-native EGA operator layer - 72 specialized agents, 425 skills and commands, 122 rules, 37 MCP servers, and lifecycle safety hooks for Gemini and Antigravity.",
+  "author": {
+    "name": "gamiheme & EGA Contributors",
+    "url": "https://github.com/gamiheme/ega"
+  },
+  "homepage": "https://github.com/gamiheme/ega",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gamiheme/ega.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "gemini",
+    "agents",
+    "skills",
+    "rules",
+    "hooks",
+    "mcp",
+    "tdd",
+    "code-review",
+    "security",
+    "workflows"
+  ],
+  "logo": "assets/logo.svg"
+}
